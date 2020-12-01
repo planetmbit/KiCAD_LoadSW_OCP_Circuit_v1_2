@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/jamming6123/Documents/SpaceTech_GARAGE/KiCad/rsp02_LoadSW_OCP_Circuit_v1_1/rsp02_LoadSW_OCP_Circuit_v1_1.sch</source>
+    <date>2020 October 02, Friday 22:56:46</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>rsp02_LoadSW_OCP_Circuit</title>
+        <company/>
+        <rev>v1.1</rev>
+        <date>2020-09-26</date>
+        <source>rsp02_LoadSW_OCP_Circuit_v1_1.sch</source>
+        <comment number="1" value="Designed by Shougo Matsuda"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>1000k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5872BE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F59704D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>0.5</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A5EA1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A811E</tstamp>
+    </comp>
+    <comp ref="Rh1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8BB0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5AA052</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5B05FF</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5E523C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5E905F</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>OP291GSZ_v2</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://uk.rs-online.com/web/p/products/5238468P</datasheet>
+      <fields>
+        <field name="Description">Dual low power op amp,OP291GS SO8</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">OP291GSZ</field>
+        <field name="RS Part Number">5238468P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/5238468P</field>
+      </fields>
+      <libsource lib="mypartsLib" part="OP291GSZ_v2" description="Dual low power op amp,OP291GS SO8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F640468</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SISS23DN-T1-GE3</value>
+      <footprint>mypartsLib:POWERPAK-1212-8</footprint>
+      <datasheet>http://www.vishay.com/docs/62852/siss23dn.pdf</datasheet>
+      <fields>
+        <field name="Description">Vishay SISS23DN-T1-GE3 P-channel MOSFET Transistor, 27 A, -20 V, 8-Pin PowerPAK 1212</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SISS23DN-T1-GE3</field>
+        <field name="RS Part Number">8141314</field>
+        <field name="Supplier_Name">RS</field>
+      </fields>
+      <libsource lib="mypartsLib" part="SISS23DN-T1-GE3" description="Vishay SISS23DN-T1-GE3 P-channel MOSFET Transistor, 27 A, -20 V, 8-Pin PowerPAK 1212"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F64B0A6</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F671DB4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F67CD1A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6AFC79</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6AF02C</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6AFA8C</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC848B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC848_SER.pdf</datasheet>
+      <fields>
+        <field name="ambient temperature range high">+150°C</field>
+        <field name="ambient temperature range low">-65°C</field>
+        <field name="automotive">Yes</field>
+        <field name="automotive grade">Grade 0</field>
+        <field name="category">Trans</field>
+        <field name="collector base voltage">30V</field>
+        <field name="collector emitter saturation voltage">200mV</field>
+        <field name="collector emitter voltage">30V</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">BJTs</field>
+        <field name="digikey description">TRANS NPN 30V 0.1A SOT23</field>
+        <field name="digikey part number">1727-4241-1-ND</field>
+        <field name="emitter base voltage">5V</field>
+        <field name="footprint url">https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf</field>
+        <field name="hFE max">450</field>
+        <field name="hFE min">200</field>
+        <field name="hFE testIC">2mA</field>
+        <field name="hFE testVce">5V</field>
+        <field name="height">1.1mm</field>
+        <field name="ipc land pattern name">SOT95P230X100-3</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">85bbc30039169e11</field>
+        <field name="manufacturer">Nexperia</field>
+        <field name="max collector current">100mA</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser description">BC848 Series 30 V 100 mA SMT NPN General Purpose Transistor - SOT-23</field>
+        <field name="mouser part number">771-BC848B215</field>
+        <field name="number of NPN">1</field>
+        <field name="number of elements">1</field>
+        <field name="package">SOT23</field>
+        <field name="power dissipation">250mW</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">500K/W</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="unity gain freq">100MHz</field>
+      </fields>
+      <libsource lib="mypartsLib" part="BC848B" description="BC848B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6CF25E</tstamp>
+    </comp>
+    <comp ref="CR2">
+      <value>1SS352_H3FT</value>
+      <footprint>mypartsLib:1SS352_H3FT</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&amp;prodName=1SS352</datasheet>
+      <libsource lib="mypartsLib" part="1SS352_H3FT" description="Diode Silicon Epitaxial Planar Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6AB1BD</tstamp>
+    </comp>
+    <comp ref="CR1">
+      <value>1SS352_H3FT</value>
+      <footprint>mypartsLib:1SS352_H3FT</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&amp;prodName=1SS352</datasheet>
+      <libsource lib="mypartsLib" part="1SS352_H3FT" description="Diode Silicon Epitaxial Planar Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6AEDB0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6BF947</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C4989</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C618E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C6F59</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF7404</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e</datasheet>
+      <libsource lib="Transistor_FET" part="IRF7404" description="-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C906A</tstamp>
+    </comp>
+    <comp ref="CR4">
+      <value>1SS352_H3FT</value>
+      <footprint>mypartsLib:1SS352_H3FT</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&amp;prodName=1SS352</datasheet>
+      <libsource lib="mypartsLib" part="1SS352_H3FT" description="Diode Silicon Epitaxial Planar Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70F7BA</tstamp>
+    </comp>
+    <comp ref="CR3">
+      <value>1SS352_H3FT</value>
+      <footprint>mypartsLib:1SS352_H3FT</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&amp;prodName=1SS352</datasheet>
+      <libsource lib="mypartsLib" part="1SS352_H3FT" description="Diode Silicon Epitaxial Planar Type"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F71C663</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Trim">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF7404">
+      <aliases>
+        <alias>FDS9435A</alias>
+      </aliases>
+      <description>-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8</description>
+      <docs>http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF7404</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mypartsLib" part="1SS352_H3FT">
+      <description>Diode Silicon Epitaxial Planar Type</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&amp;prodName=1SS352</docs>
+      <footprints>
+        <fp>USC_TOS</fp>
+        <fp>USC_TOS-M</fp>
+        <fp>USC_TOS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR</field>
+        <field name="Value">1SS352_H3FT</field>
+        <field name="Footprint">USC_TOS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="cathode" type="BiDi"/>
+        <pin num="2" name="anode" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mypartsLib" part="BC848B">
+      <description>BC848B</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BC848_SER.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC848B</field>
+        <field name="Footprint">Nexperia-SOT23-01_2019-0-*</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BC848_SER.pdf</field>
+        <field name="ambient temperature range high">+150°C</field>
+        <field name="ambient temperature range low">-65°C</field>
+        <field name="automotive">Yes</field>
+        <field name="automotive grade">Grade 0</field>
+        <field name="category">Trans</field>
+        <field name="collector base voltage">30V</field>
+        <field name="collector emitter saturation voltage">200mV</field>
+        <field name="collector emitter voltage">30V</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">BJTs</field>
+        <field name="digikey description">TRANS NPN 30V 0.1A SOT23</field>
+        <field name="digikey part number">1727-4241-1-ND</field>
+        <field name="emitter base voltage">5V</field>
+        <field name="footprint url">https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf</field>
+        <field name="hFE max">450</field>
+        <field name="hFE min">200</field>
+        <field name="hFE testIC">2mA</field>
+        <field name="hFE testVce">5V</field>
+        <field name="height">1.1mm</field>
+        <field name="ipc land pattern name">SOT95P230X100-3</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">85bbc30039169e11</field>
+        <field name="manufacturer">Nexperia</field>
+        <field name="max collector current">100mA</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser description">BC848 Series 30 V 100 mA SMT NPN General Purpose Transistor - SOT-23</field>
+        <field name="mouser part number">771-BC848B215</field>
+        <field name="number of NPN">1</field>
+        <field name="number of elements">1</field>
+        <field name="package">SOT23</field>
+        <field name="power dissipation">250mW</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">500K/W</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="unity gain freq">100MHz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="base" type="passive"/>
+        <pin num="2" name="emitter" type="passive"/>
+        <pin num="3" name="collector" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mypartsLib" part="OP291GSZ_v2">
+      <description>Dual low power op amp,OP291GS SO8</description>
+      <docs>http://uk.rs-online.com/web/p/products/5238468P</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">OP291GSZ_v2</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://uk.rs-online.com/web/p/products/5238468P</field>
+        <field name="Description">Dual low power op amp,OP291GS SO8</field>
+        <field name="Height">1.75</field>
+        <field name="RS Part Number">5238468P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/5238468P</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">OP291GSZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="output"/>
+        <pin num="2" name="-INA" type="input"/>
+        <pin num="3" name="+INA" type="input"/>
+        <pin num="4" name="-V" type="passive"/>
+        <pin num="5" name="+INB" type="input"/>
+        <pin num="6" name="-INB" type="input"/>
+        <pin num="7" name="OUTB" type="output"/>
+        <pin num="8" name="+V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mypartsLib" part="SISS23DN-T1-GE3">
+      <description>Vishay SISS23DN-T1-GE3 P-channel MOSFET Transistor, 27 A, -20 V, 8-Pin PowerPAK 1212</description>
+      <docs>http://www.vishay.com/docs/62852/siss23dn.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SISS23DN-T1-GE3</field>
+        <field name="Footprint">POWERPAK-1212-8</field>
+        <field name="Datasheet">http://www.vishay.com/docs/62852/siss23dn.pdf</field>
+        <field name="Description">Vishay SISS23DN-T1-GE3 P-channel MOSFET Transistor, 27 A, -20 V, 8-Pin PowerPAK 1212</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="RS Part Number">8141314</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SISS23DN-T1-GE3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S(1)" type="BiDi"/>
+        <pin num="2" name="S(2)" type="BiDi"/>
+        <pin num="3" name="S(3)" type="BiDi"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D(1)" type="BiDi"/>
+        <pin num="6" name="D(2)" type="BiDi"/>
+        <pin num="7" name="D(3)" type="BiDi"/>
+        <pin num="8" name="D(4)" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Users/jamming6123/KiCAD_git_repo/kicad-symbols/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Users/jamming6123/KiCAD_git_repo/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Users/jamming6123/KiCAD_git_repo/kicad-symbols/Transistor_FET.lib</uri>
+    </library>
+    <library logical="mypartsLib">
+      <uri>/Users/jamming6123/Documents/SpaceTech_GARAGE/KiCad/rsp02_LoadSW_OCP_Circuit_v1_1/mypartsLib/mypartsLib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDA">
+      <node ref="R3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="5" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="6" name="Vinput">
+      <node ref="IC1" pin="8"/>
+      <node ref="R8" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad3)">
+      <node ref="RV1" pin="3"/>
+      <node ref="Rh1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="10" name="Voutput">
+      <node ref="J2" pin="1"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(Q2-Pad4)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="13" name="IOexpander">
+      <node ref="J3" pin="1"/>
+      <node ref="CR3" pin="2"/>
+    </net>
+    <net code="14" name="ReceiverRx">
+      <node ref="J4" pin="1"/>
+      <node ref="CR4" pin="2"/>
+    </net>
+    <net code="15" name="Net-(CR2-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q2" pin="8"/>
+      <node ref="Q2" pin="7"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="CR2" pin="1"/>
+      <node ref="Q2" pin="5"/>
+    </net>
+    <net code="16" name="Net-(CR2-Pad2)">
+      <node ref="IC1" pin="1"/>
+      <node ref="CR2" pin="2"/>
+      <node ref="Rh1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="17" name="Net-(CR1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="RV2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="CR1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad1)">
+      <node ref="CR1" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(CR3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="CR4" pin="1"/>
+      <node ref="CR3" pin="1"/>
+    </net>
+  </nets>
+</export>
