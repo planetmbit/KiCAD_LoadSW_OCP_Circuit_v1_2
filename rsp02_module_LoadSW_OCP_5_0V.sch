@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 17
+Sheet 7 17
 Title "rsp02_module_LoadSW_OCP_5_0V"
 Date "2020-12-06"
 Rev "v1.2"
@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R3
+L Device:R R67
 U 1 1 5FD2B5BB
 P 3500 4850
-AR Path="/5FD192D6/5FD2B5BB" Ref="R3"  Part="1" 
-AR Path="/5FD19308/5FD2B5BB" Ref="R3"  Part="1" 
-AR Path="/5FD193BD/5FD2B5BB" Ref="R3"  Part="1" 
-AR Path="/5FD19328/5FD2B5BB" Ref="R3"  Part="1" 
-F 0 "R3" H 3550 4950 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5BB" Ref="R67"  Part="1" 
+AR Path="/5FD19308/5FD2B5BB" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5BB" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD2B5BB" Ref="R?"  Part="1" 
+F 0 "R67" H 3550 4950 50  0000 L CNN
 F 1 "1000k" H 3550 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 4850 50  0001 C CNN
 F 3 "~" H 3500 4850 50  0001 C CNN
@@ -29,14 +29,14 @@ F 3 "~" H 3500 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C17
 U 1 1 5FD2B5BC
 P 4850 5450
-AR Path="/5FD192D6/5FD2B5BC" Ref="C2"  Part="1" 
-AR Path="/5FD19308/5FD2B5BC" Ref="C2"  Part="1" 
-AR Path="/5FD193BD/5FD2B5BC" Ref="C2"  Part="1" 
-AR Path="/5FD19328/5FD2B5BC" Ref="C2"  Part="1" 
-F 0 "C2" H 4950 5550 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5BC" Ref="C17"  Part="1" 
+AR Path="/5FD19308/5FD2B5BC" Ref="C?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5BC" Ref="C?"  Part="1" 
+AR Path="/5FD19328/5FD2B5BC" Ref="C?"  Part="1" 
+F 0 "C17" H 4950 5550 50  0000 L CNN
 F 1 "0.1u" H 4950 5350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4888 5300 50  0001 C CNN
 F 3 "~" H 4850 5450 50  0001 C CNN
@@ -46,14 +46,14 @@ $EndComp
 Wire Wire Line
 	6650 2150 6650 2800
 $Comp
-L Device:R R2
+L Device:R R66
 U 1 1 5FD2B5BD
 P 2900 1350
-AR Path="/5FD192D6/5FD2B5BD" Ref="R2"  Part="1" 
-AR Path="/5FD19308/5FD2B5BD" Ref="R2"  Part="1" 
-AR Path="/5FD193BD/5FD2B5BD" Ref="R2"  Part="1" 
-AR Path="/5FD19328/5FD2B5BD" Ref="R2"  Part="1" 
-F 0 "R2" V 2800 1300 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5BD" Ref="R66"  Part="1" 
+AR Path="/5FD19308/5FD2B5BD" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5BD" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD2B5BD" Ref="R?"  Part="1" 
+F 0 "R66" V 2800 1300 50  0000 L CNN
 F 1 "0.5" V 3000 1300 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 2830 1350 50  0001 C CNN
 F 3 "~" H 2900 1350 50  0001 C CNN
@@ -63,14 +63,14 @@ $EndComp
 Wire Wire Line
 	3050 1350 3200 1350
 $Comp
-L Device:R R5
+L Device:R R69
 U 1 1 5FD2B5BE
 P 6650 2950
-AR Path="/5FD192D6/5FD2B5BE" Ref="R5"  Part="1" 
-AR Path="/5FD19308/5FD2B5BE" Ref="R5"  Part="1" 
-AR Path="/5FD193BD/5FD2B5BE" Ref="R5"  Part="1" 
-AR Path="/5FD19328/5FD2B5BE" Ref="R5"  Part="1" 
-F 0 "R5" H 6700 3050 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5BE" Ref="R69"  Part="1" 
+AR Path="/5FD19308/5FD2B5BE" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5BE" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD2B5BE" Ref="R?"  Part="1" 
+F 0 "R69" H 6700 3050 50  0000 L CNN
 F 1 "1k" H 6700 2850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6580 2950 50  0001 C CNN
 F 3 "~" H 6650 2950 50  0001 C CNN
@@ -78,14 +78,14 @@ F 3 "~" H 6650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R Rh1
+L Device:R Rh6
 U 1 1 5FD2B5BF
 P 4600 2150
-AR Path="/5FD192D6/5FD2B5BF" Ref="Rh1"  Part="1" 
-AR Path="/5FD19308/5FD2B5BF" Ref="Rh1"  Part="1" 
-AR Path="/5FD193BD/5FD2B5BF" Ref="Rh1"  Part="1" 
-AR Path="/5FD19328/5FD2B5BF" Ref="Rh1"  Part="1" 
-F 0 "Rh1" V 4500 2100 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5BF" Ref="Rh6"  Part="1" 
+AR Path="/5FD19308/5FD2B5BF" Ref="Rh?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5BF" Ref="Rh?"  Part="1" 
+AR Path="/5FD19328/5FD2B5BF" Ref="Rh?"  Part="1" 
+F 0 "Rh6" V 4500 2100 50  0000 L CNN
 F 1 "100k" V 4700 2050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4530 2150 50  0001 C CNN
 F 3 "~" H 4600 2150 50  0001 C CNN
@@ -95,14 +95,14 @@ $EndComp
 Wire Wire Line
 	4750 2150 5800 2150
 $Comp
-L Device:C C3
+L Device:C C18
 U 1 1 5FD2B5C0
 P 7650 3800
-AR Path="/5FD192D6/5FD2B5C0" Ref="C3"  Part="1" 
-AR Path="/5FD19308/5FD2B5C0" Ref="C3"  Part="1" 
-AR Path="/5FD193BD/5FD2B5C0" Ref="C3"  Part="1" 
-AR Path="/5FD19328/5FD2B5C0" Ref="C3"  Part="1" 
-F 0 "C3" V 7500 3750 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5C0" Ref="C18"  Part="1" 
+AR Path="/5FD19308/5FD2B5C0" Ref="C?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5C0" Ref="C?"  Part="1" 
+AR Path="/5FD19328/5FD2B5C0" Ref="C?"  Part="1" 
+F 0 "C18" V 7500 3750 50  0000 L CNN
 F 1 "0.1u" V 7800 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7688 3650 50  0001 C CNN
 F 3 "~" H 7650 3800 50  0001 C CNN
@@ -118,14 +118,14 @@ Wire Wire Line
 Wire Wire Line
 	6650 3800 7500 3800
 $Comp
-L Device:R R4
+L Device:R R68
 U 1 1 5FD2B5C1
 P 6250 3800
-AR Path="/5FD192D6/5FD2B5C1" Ref="R4"  Part="1" 
-AR Path="/5FD19308/5FD2B5C1" Ref="R4"  Part="1" 
-AR Path="/5FD193BD/5FD2B5C1" Ref="R4"  Part="1" 
-AR Path="/5FD19328/5FD2B5C1" Ref="R4"  Part="1" 
-F 0 "R4" V 6150 3750 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5C1" Ref="R68"  Part="1" 
+AR Path="/5FD19308/5FD2B5C1" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5C1" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD2B5C1" Ref="R?"  Part="1" 
+F 0 "R68" V 6150 3750 50  0000 L CNN
 F 1 "10k" V 6350 3750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6180 3800 50  0001 C CNN
 F 3 "~" H 6250 3800 50  0001 C CNN
@@ -139,14 +139,14 @@ NoConn ~ 4700 4500
 NoConn ~ 4700 4300
 NoConn ~ 5600 4400
 $Comp
-L Device:R R1
+L Device:R R65
 U 1 1 5F5E523C
 P 2300 4850
-AR Path="/5FD192D6/5F5E523C" Ref="R1"  Part="1" 
-AR Path="/5FD19308/5F5E523C" Ref="R1"  Part="1" 
-AR Path="/5FD193BD/5F5E523C" Ref="R1"  Part="1" 
-AR Path="/5FD19328/5F5E523C" Ref="R1"  Part="1" 
-F 0 "R1" H 2350 4950 50  0000 L CNN
+AR Path="/5FD192D6/5F5E523C" Ref="R65"  Part="1" 
+AR Path="/5FD19308/5F5E523C" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5F5E523C" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5F5E523C" Ref="R?"  Part="1" 
+F 0 "R65" H 2350 4950 50  0000 L CNN
 F 1 "100k" H 2350 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2230 4850 50  0001 C CNN
 F 3 "~" H 2300 4850 50  0001 C CNN
@@ -154,14 +154,14 @@ F 3 "~" H 2300 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L Device:C C16
 U 1 1 5FD2B5C3
 P 3900 4850
-AR Path="/5FD192D6/5FD2B5C3" Ref="C1"  Part="1" 
-AR Path="/5FD19308/5FD2B5C3" Ref="C1"  Part="1" 
-AR Path="/5FD193BD/5FD2B5C3" Ref="C1"  Part="1" 
-AR Path="/5FD19328/5FD2B5C3" Ref="C1"  Part="1" 
-F 0 "C1" H 4000 4950 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5C3" Ref="C16"  Part="1" 
+AR Path="/5FD19308/5FD2B5C3" Ref="C?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5C3" Ref="C?"  Part="1" 
+AR Path="/5FD19328/5FD2B5C3" Ref="C?"  Part="1" 
+F 0 "C16" H 4000 4950 50  0000 L CNN
 F 1 "0.1u" H 4000 4750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 4700 50  0001 C CNN
 F 3 "~" H 3900 4850 50  0001 C CNN
@@ -246,14 +246,14 @@ Wire Wire Line
 Wire Wire Line
 	2300 1650 2600 1650
 $Comp
-L mypartsLib:OP291GSZ_v2 IC1
+L mypartsLib:OP291GSZ_v2 IC6
 U 1 1 5FD2B5C4
 P 5150 4100
-AR Path="/5FD192D6/5FD2B5C4" Ref="IC1"  Part="1" 
-AR Path="/5FD19308/5FD2B5C4" Ref="IC1"  Part="1" 
-AR Path="/5FD193BD/5FD2B5C4" Ref="IC1"  Part="1" 
-AR Path="/5FD19328/5FD2B5C4" Ref="IC1"  Part="1" 
-F 0 "IC1" H 4950 4850 50  0000 C CNN
+AR Path="/5FD192D6/5FD2B5C4" Ref="IC6"  Part="1" 
+AR Path="/5FD19308/5FD2B5C4" Ref="IC?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5C4" Ref="IC?"  Part="1" 
+AR Path="/5FD19328/5FD2B5C4" Ref="IC?"  Part="1" 
+F 0 "IC6" H 4950 4850 50  0000 C CNN
 F 1 "OP291GSZ_v2" H 5150 4750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5750 4200 50  0001 L CNN
 F 3 "http://uk.rs-online.com/web/p/products/5238468P" H 5750 4100 50  0001 L CNN
@@ -298,14 +298,14 @@ Wire Wire Line
 	3200 1350 6950 1350
 Connection ~ 3200 1350
 $Comp
-L mypartsLib:SISS23DN-T1-GE3 Q1
+L mypartsLib:SISS23DN-T1-GE3 Q16
 U 1 1 5FD2B5C5
 P 7400 1350
-AR Path="/5FD192D6/5FD2B5C5" Ref="Q1"  Part="1" 
-AR Path="/5FD19308/5FD2B5C5" Ref="Q1"  Part="1" 
-AR Path="/5FD193BD/5FD2B5C5" Ref="Q1"  Part="1" 
-AR Path="/5FD19328/5FD2B5C5" Ref="Q1"  Part="1" 
-F 0 "Q1" H 7900 1617 50  0000 C CNN
+AR Path="/5FD192D6/5FD2B5C5" Ref="Q16"  Part="1" 
+AR Path="/5FD19308/5FD2B5C5" Ref="Q?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5C5" Ref="Q?"  Part="1" 
+AR Path="/5FD19328/5FD2B5C5" Ref="Q?"  Part="1" 
+F 0 "Q16" H 7900 1617 50  0000 C CNN
 F 1 "SISS23DN-T1-GE3" H 7900 1526 50  0000 C CNN
 F 2 "mypartsLib:POWERPAK-1212-8" H 7900 800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/62852/siss23dn.pdf" H 7900 700 50  0001 C CNN
@@ -355,14 +355,14 @@ Connection ~ 8550 1550
 Wire Wire Line
 	7400 2250 7400 1950
 $Comp
-L Device:R R6
+L Device:R R70
 U 1 1 5FD2B5C6
 P 6950 1650
-AR Path="/5FD192D6/5FD2B5C6" Ref="R6"  Part="1" 
-AR Path="/5FD19308/5FD2B5C6" Ref="R6"  Part="1" 
-AR Path="/5FD193BD/5FD2B5C6" Ref="R6"  Part="1" 
-AR Path="/5FD19328/5FD2B5C6" Ref="R6"  Part="1" 
-F 0 "R6" H 7000 1750 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5C6" Ref="R70"  Part="1" 
+AR Path="/5FD19308/5FD2B5C6" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5C6" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD2B5C6" Ref="R?"  Part="1" 
+F 0 "R70" H 7000 1750 50  0000 L CNN
 F 1 "100k" H 7000 1550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6880 1650 50  0001 C CNN
 F 3 "~" H 6950 1650 50  0001 C CNN
@@ -382,14 +382,14 @@ Connection ~ 7400 1950
 Wire Wire Line
 	7400 1950 7400 1650
 $Comp
-L Device:R R8
+L Device:R R73
 U 1 1 5FD2B5C7
 P 9250 2150
-AR Path="/5FD192D6/5FD2B5C7" Ref="R8"  Part="1" 
-AR Path="/5FD19308/5FD2B5C7" Ref="R8"  Part="1" 
-AR Path="/5FD193BD/5FD2B5C7" Ref="R8"  Part="1" 
-AR Path="/5FD19328/5FD2B5C7" Ref="R8"  Part="1" 
-F 0 "R8" H 9300 2250 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5C7" Ref="R73"  Part="1" 
+AR Path="/5FD19308/5FD2B5C7" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5C7" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD2B5C7" Ref="R?"  Part="1" 
+F 0 "R73" H 9300 2250 50  0000 L CNN
 F 1 "100k" H 9300 2050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9180 2150 50  0001 C CNN
 F 3 "~" H 9250 2150 50  0001 C CNN
@@ -406,14 +406,14 @@ Wire Wire Line
 	9250 4400 9250 2450
 Connection ~ 9250 2450
 $Comp
-L Device:R R7
+L Device:R R72
 U 1 1 5FD2B5CC
 P 8800 4900
-AR Path="/5FD192D6/5FD2B5CC" Ref="R7"  Part="1" 
-AR Path="/5FD19308/5FD2B5CC" Ref="R7"  Part="1" 
-AR Path="/5FD193BD/5FD2B5CC" Ref="R7"  Part="1" 
-AR Path="/5FD19328/5FD2B5CC" Ref="R7"  Part="1" 
-F 0 "R7" H 8850 5000 50  0000 L CNN
+AR Path="/5FD192D6/5FD2B5CC" Ref="R72"  Part="1" 
+AR Path="/5FD19308/5FD2B5CC" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5CC" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD2B5CC" Ref="R?"  Part="1" 
+F 0 "R72" H 8850 5000 50  0000 L CNN
 F 1 "10k" H 8850 4800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8730 4900 50  0001 C CNN
 F 3 "~" H 8800 4900 50  0001 C CNN
@@ -421,14 +421,14 @@ F 3 "~" H 8800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Potentiometer_Trim RV1
+L Device:R_Potentiometer_Trim RV11
 U 1 1 5FD2B5CA
 P 2300 3000
-AR Path="/5FD192D6/5FD2B5CA" Ref="RV1"  Part="1" 
-AR Path="/5FD19308/5FD2B5CA" Ref="RV1"  Part="1" 
-AR Path="/5FD193BD/5FD2B5CA" Ref="RV1"  Part="1" 
-AR Path="/5FD19328/5FD2B5CA" Ref="RV1"  Part="1" 
-F 0 "RV1" H 2231 3046 50  0000 R CNN
+AR Path="/5FD192D6/5FD2B5CA" Ref="RV11"  Part="1" 
+AR Path="/5FD19308/5FD2B5CA" Ref="RV?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5CA" Ref="RV?"  Part="1" 
+AR Path="/5FD19328/5FD2B5CA" Ref="RV?"  Part="1" 
+F 0 "RV11" H 2231 3046 50  0000 R CNN
 F 1 "100k" H 2231 2955 50  0000 R CNN
 F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical" H 2300 3000 50  0001 C CNN
 F 3 "~" H 2300 3000 50  0001 C CNN
@@ -436,14 +436,14 @@ F 3 "~" H 2300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Potentiometer_Trim RV2
+L Device:R_Potentiometer_Trim RV12
 U 1 1 5FD2B5CB
 P 3500 3000
-AR Path="/5FD192D6/5FD2B5CB" Ref="RV2"  Part="1" 
-AR Path="/5FD19308/5FD2B5CB" Ref="RV2"  Part="1" 
-AR Path="/5FD193BD/5FD2B5CB" Ref="RV2"  Part="1" 
-AR Path="/5FD19328/5FD2B5CB" Ref="RV2"  Part="1" 
-F 0 "RV2" H 3431 3046 50  0000 R CNN
+AR Path="/5FD192D6/5FD2B5CB" Ref="RV12"  Part="1" 
+AR Path="/5FD19308/5FD2B5CB" Ref="RV?"  Part="1" 
+AR Path="/5FD193BD/5FD2B5CB" Ref="RV?"  Part="1" 
+AR Path="/5FD19328/5FD2B5CB" Ref="RV?"  Part="1" 
+F 0 "RV12" H 3431 3046 50  0000 R CNN
 F 1 "100k" H 3431 2955 50  0000 R CNN
 F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical" H 3500 3000 50  0001 C CNN
 F 3 "~" H 3500 3000 50  0001 C CNN
@@ -451,14 +451,14 @@ F 3 "~" H 3500 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mypartsLib:BC848B Q3
+L mypartsLib:BC848B Q18
 U 1 1 5F6CF25E
 P 8950 4600
-AR Path="/5FD192D6/5F6CF25E" Ref="Q3"  Part="1" 
-AR Path="/5FD19308/5F6CF25E" Ref="Q3"  Part="1" 
-AR Path="/5FD193BD/5F6CF25E" Ref="Q3"  Part="1" 
-AR Path="/5FD19328/5F6CF25E" Ref="Q3"  Part="1" 
-F 0 "Q3" H 9294 4646 50  0000 L CNN
+AR Path="/5FD192D6/5F6CF25E" Ref="Q18"  Part="1" 
+AR Path="/5FD19308/5F6CF25E" Ref="Q?"  Part="1" 
+AR Path="/5FD193BD/5F6CF25E" Ref="Q?"  Part="1" 
+AR Path="/5FD19328/5F6CF25E" Ref="Q?"  Part="1" 
+F 0 "Q18" H 9294 4646 50  0000 L CNN
 F 1 "BC848B" H 9294 4555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 5100 50  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC848_SER.pdf" H 8950 5200 50  0001 L CNN
@@ -504,14 +504,14 @@ $EndComp
 Wire Wire Line
 	8100 4600 8350 4600
 $Comp
-L mypartsLib:1SS352_H3FT CR2
+L mypartsLib:1SS352_H3FT CR22
 U 1 1 5F6AB1BD
 P 6050 2150
-AR Path="/5FD192D6/5F6AB1BD" Ref="CR2"  Part="1" 
-AR Path="/5FD19308/5F6AB1BD" Ref="CR2"  Part="1" 
-AR Path="/5FD193BD/5F6AB1BD" Ref="CR2"  Part="1" 
-AR Path="/5FD19328/5F6AB1BD" Ref="CR2"  Part="1" 
-F 0 "CR2" V 6356 2046 50  0000 R CNN
+AR Path="/5FD192D6/5F6AB1BD" Ref="CR22"  Part="1" 
+AR Path="/5FD19308/5F6AB1BD" Ref="CR?"  Part="1" 
+AR Path="/5FD193BD/5F6AB1BD" Ref="CR?"  Part="1" 
+AR Path="/5FD19328/5F6AB1BD" Ref="CR?"  Part="1" 
+F 0 "CR22" V 6356 2046 50  0000 R CNN
 F 1 "1SS352_H3FT" V 6250 2046 50  0000 R CNN
 F 2 "mypartsLib:1SS352_H3FT" H 6250 1900 60  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&prodName=1SS352" V 6144 2046 60  0001 R CNN
@@ -519,14 +519,14 @@ F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&prodName=1SS35
 	1    0    0    -1  
 $EndComp
 $Comp
-L mypartsLib:1SS352_H3FT CR1
+L mypartsLib:1SS352_H3FT CR21
 U 1 1 5F6AEDB0
 P 4050 3200
-AR Path="/5FD192D6/5F6AEDB0" Ref="CR1"  Part="1" 
-AR Path="/5FD19308/5F6AEDB0" Ref="CR1"  Part="1" 
-AR Path="/5FD193BD/5F6AEDB0" Ref="CR1"  Part="1" 
-AR Path="/5FD19328/5F6AEDB0" Ref="CR1"  Part="1" 
-F 0 "CR1" V 4356 3096 50  0000 R CNN
+AR Path="/5FD192D6/5F6AEDB0" Ref="CR21"  Part="1" 
+AR Path="/5FD19308/5F6AEDB0" Ref="CR?"  Part="1" 
+AR Path="/5FD193BD/5F6AEDB0" Ref="CR?"  Part="1" 
+AR Path="/5FD19328/5F6AEDB0" Ref="CR?"  Part="1" 
+F 0 "CR21" V 4356 3096 50  0000 R CNN
 F 1 "1SS352_H3FT" V 4250 3096 50  0000 R CNN
 F 2 "mypartsLib:1SS352_H3FT" H 4250 2950 60  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&prodName=1SS352" V 4144 3096 60  0001 R CNN
@@ -542,14 +542,14 @@ Wire Wire Line
 Wire Wire Line
 	6450 2150 6650 2150
 $Comp
-L Transistor_FET:IRF7404 Q2
-U 1 1 5F6C906A
+L Transistor_FET:IRF7404 Q17
+U 1 1 60873816
 P 7500 2450
-AR Path="/5FD192D6/5F6C906A" Ref="Q2"  Part="1" 
-AR Path="/5FD19308/5F6C906A" Ref="Q2"  Part="1" 
-AR Path="/5FD193BD/5F6C906A" Ref="Q2"  Part="1" 
-AR Path="/5FD19328/5F6C906A" Ref="Q2"  Part="1" 
-F 0 "Q2" H 7705 2404 50  0000 L CNN
+AR Path="/5FD192D6/60873816" Ref="Q17"  Part="1" 
+AR Path="/5FD19308/60873816" Ref="Q?"  Part="1" 
+AR Path="/5FD193BD/60873816" Ref="Q?"  Part="1" 
+AR Path="/5FD19328/60873816" Ref="Q?"  Part="1" 
+F 0 "Q17" H 7705 2404 50  0000 L CNN
 F 1 "IRF7404" H 7705 2495 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7700 2375 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 7500 2450 50  0001 L CNN
@@ -557,14 +557,14 @@ F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5
 	-1   0    0    1   
 $EndComp
 $Comp
-L mypartsLib:1SS352_H3FT CR4
-U 1 1 5F70F7BA
+L mypartsLib:1SS352_H3FT CR24
+U 1 1 60873818
 P 7450 4950
-AR Path="/5FD192D6/5F70F7BA" Ref="CR4"  Part="1" 
-AR Path="/5FD19308/5F70F7BA" Ref="CR4"  Part="1" 
-AR Path="/5FD193BD/5F70F7BA" Ref="CR4"  Part="1" 
-AR Path="/5FD19328/5F70F7BA" Ref="CR4"  Part="1" 
-F 0 "CR4" H 7700 4700 50  0000 R CNN
+AR Path="/5FD192D6/60873818" Ref="CR24"  Part="1" 
+AR Path="/5FD19308/60873818" Ref="CR?"  Part="1" 
+AR Path="/5FD193BD/60873818" Ref="CR?"  Part="1" 
+AR Path="/5FD19328/60873818" Ref="CR?"  Part="1" 
+F 0 "CR24" H 7700 4700 50  0000 R CNN
 F 1 "1SS352_H3FT" H 7900 4800 50  0000 R CNN
 F 2 "mypartsLib:1SS352_H3FT" H 7650 4700 60  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&prodName=1SS352" V 7544 4846 60  0001 R CNN
@@ -574,14 +574,14 @@ $EndComp
 Wire Wire Line
 	8100 4600 8100 4950
 $Comp
-L mypartsLib:1SS352_H3FT CR3
-U 1 1 5F71C663
+L mypartsLib:1SS352_H3FT CR23
+U 1 1 60873819
 P 7450 4600
-AR Path="/5FD192D6/5F71C663" Ref="CR3"  Part="1" 
-AR Path="/5FD19308/5F71C663" Ref="CR3"  Part="1" 
-AR Path="/5FD193BD/5F71C663" Ref="CR3"  Part="1" 
-AR Path="/5FD19328/5F71C663" Ref="CR3"  Part="1" 
-F 0 "CR3" H 7700 4850 50  0000 R CNN
+AR Path="/5FD192D6/60873819" Ref="CR23"  Part="1" 
+AR Path="/5FD19308/60873819" Ref="CR?"  Part="1" 
+AR Path="/5FD193BD/60873819" Ref="CR?"  Part="1" 
+AR Path="/5FD19328/60873819" Ref="CR?"  Part="1" 
+F 0 "CR23" H 7700 4850 50  0000 R CNN
 F 1 "1SS352_H3FT" H 7900 4750 50  0000 R CNN
 F 2 "mypartsLib:1SS352_H3FT" H 7650 4350 60  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&prodName=1SS352" V 7544 4496 60  0001 R CNN
@@ -622,14 +622,14 @@ Wire Wire Line
 Wire Wire Line
 	8800 5050 8800 5200
 $Comp
-L Device:R R9
+L Device:R R71
 U 1 1 5FD0CB73
 P 8500 4600
-AR Path="/5FD192D6/5FD0CB73" Ref="R9"  Part="1" 
-AR Path="/5FD19308/5FD0CB73" Ref="R9"  Part="1" 
-AR Path="/5FD193BD/5FD0CB73" Ref="R9"  Part="1" 
-AR Path="/5FD19328/5FD0CB73" Ref="R9"  Part="1" 
-F 0 "R9" V 8600 4550 50  0000 L CNN
+AR Path="/5FD192D6/5FD0CB73" Ref="R71"  Part="1" 
+AR Path="/5FD19308/5FD0CB73" Ref="R?"  Part="1" 
+AR Path="/5FD193BD/5FD0CB73" Ref="R?"  Part="1" 
+AR Path="/5FD19328/5FD0CB73" Ref="R?"  Part="1" 
+F 0 "R71" V 8600 4550 50  0000 L CNN
 F 1 "10k" V 8400 4550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8430 4600 50  0001 C CNN
 F 3 "~" H 8500 4600 50  0001 C CNN

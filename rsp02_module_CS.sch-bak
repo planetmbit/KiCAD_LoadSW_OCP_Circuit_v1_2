@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 17
+Sheet 10 17
 Title "rsp02_module_Current Sense"
 Date "2020-12-06"
 Rev "V1.2"
