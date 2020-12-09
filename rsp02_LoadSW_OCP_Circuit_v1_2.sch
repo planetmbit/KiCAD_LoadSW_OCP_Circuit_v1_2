@@ -951,35 +951,35 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5FFB79CD
-P 1040 850
-F 0 "J1" H 958 525 50  0000 C CNN
-F 1 "Conn_01x02" H 958 616 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1040 850 50  0001 C CNN
-F 3 "~" H 1040 850 50  0001 C CNN
-	1    1040 850 
-	-1   0    0    1   
+P 1040 750
+F 0 "J1" H 1160 700 50  0000 C CNN
+F 1 "Conn_01x02" H 958 516 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1040 750 50  0001 C CNN
+F 3 "~" H 1040 750 50  0001 C CNN
+	1    1040 750 
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5FFB967E
-P 1050 1300
-F 0 "J2" H 968 975 50  0000 C CNN
-F 1 "Conn_01x02" H 968 1066 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1050 1300 50  0001 C CNN
-F 3 "~" H 1050 1300 50  0001 C CNN
-	1    1050 1300
-	-1   0    0    1   
+P 1050 1200
+F 0 "J2" H 1180 1150 50  0000 C CNN
+F 1 "Conn_01x02" H 968 966 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1050 1200 50  0001 C CNN
+F 3 "~" H 1050 1200 50  0001 C CNN
+	1    1050 1200
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5FFBA725
-P 1050 1750
-F 0 "J3" H 968 1425 50  0000 C CNN
-F 1 "Conn_01x02" H 968 1516 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1050 1750 50  0001 C CNN
-F 3 "~" H 1050 1750 50  0001 C CNN
-	1    1050 1750
-	-1   0    0    1   
+P 1050 1650
+F 0 "J3" H 1190 1590 50  0000 C CNN
+F 1 "Conn_01x02" H 968 1416 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1050 1650 50  0001 C CNN
+F 3 "~" H 1050 1650 50  0001 C CNN
+	1    1050 1650
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J7
@@ -1122,7 +1122,7 @@ U 1 1 5FFF62BC
 P 1850 2150
 F 0 "J4" H 1930 2142 50  0000 L CNN
 F 1 "Conn_01x02" H 1930 2051 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1850 2150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1850 2150 50  0001 C CNN
 F 3 "~" H 1850 2150 50  0001 C CNN
 	1    1850 2150
 	1    0    0    -1  
@@ -1133,7 +1133,7 @@ U 1 1 5FFF66DE
 P 1850 2480
 F 0 "J5" H 1930 2472 50  0000 L CNN
 F 1 "Conn_01x02" H 1930 2381 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1850 2480 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1850 2480 50  0001 C CNN
 F 3 "~" H 1850 2480 50  0001 C CNN
 	1    1850 2480
 	1    0    0    -1  
@@ -1144,7 +1144,7 @@ U 1 1 5FFF6C13
 P 1850 2880
 F 0 "J6" H 1930 2872 50  0000 L CNN
 F 1 "Conn_01x02" H 1930 2781 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1850 2880 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1850 2880 50  0001 C CNN
 F 3 "~" H 1850 2880 50  0001 C CNN
 	1    1850 2880
 	1    0    0    -1  

@@ -670,4 +670,6 @@ F 3 "~" H 3500 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 3000 3500 2950
+Text Label 4590 1350 0    50   ~ 0
+Power_Line
 $EndSCHEMATC
