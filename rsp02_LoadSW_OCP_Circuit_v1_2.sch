@@ -868,7 +868,7 @@ Imon_TX
 Wire Wire Line
 	5600 1700 5400 1700
 Text GLabel 5600 2400 2    39   Output ~ 0
-Imon_TX
+Imon_RX
 Wire Wire Line
 	5410 2400 5600 2400
 Text GLabel 5600 3100 2    39   Output ~ 0
@@ -1067,7 +1067,7 @@ U 1 1 5FFE8AB9
 P 4050 7150
 F 0 "J15" H 4180 7470 50  0000 C CNN
 F 1 "Conn_01x10" H 4370 7570 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-10-5.08_1x10_P5.08mm_Horizontal" H 4050 7150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4050 7150 50  0001 C CNN
 F 3 "~" H 4050 7150 50  0001 C CNN
 	1    4050 7150
 	1    0    0    1   
@@ -1488,7 +1488,7 @@ Imon_TXPA
 Text GLabel 3700 6750 0    39   Input ~ 0
 Imon_TX
 Text GLabel 3700 6850 0    39   Input ~ 0
-Imon_TX
+Imon_RX
 Text GLabel 3700 6950 0    39   Input ~ 0
 Imon_Mission
 Text GLabel 3700 7050 0    39   Input ~ 0

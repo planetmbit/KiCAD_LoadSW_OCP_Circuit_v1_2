@@ -22,7 +22,7 @@ Reference, Value, Footprint, Datasheet, Description, Manufacturer_Name, Manufact
 "J2","Conn_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal","~"
 "J3","Conn_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal","~"
 "J7","Conn_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal","~"
-"J15","Conn_01x10","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-10-5.08_1x10_P5.08mm_Horizontal","~"
+"J15","Conn_01x10","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","~"
 "J16","Conn_01x10","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-10-5.08_1x10_P5.08mm_Horizontal","~"
 "J4","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"
 "J5","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"
