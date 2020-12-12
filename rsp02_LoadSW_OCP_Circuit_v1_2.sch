@@ -490,10 +490,6 @@ F 3 "~" H 7140 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7240 1000 7500 1000
-Wire Wire Line
-	6900 1000 6900 800 
-Wire Wire Line
-	6900 1000 7040 1000
 Connection ~ 6900 800 
 Wire Wire Line
 	6900 800  7500 800 
@@ -520,10 +516,6 @@ F 3 "~" H 7140 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7240 3100 7500 3100
-Wire Wire Line
-	6900 2900 6900 3100
-Wire Wire Line
-	6900 3100 7040 3100
 Connection ~ 6900 2900
 Wire Wire Line
 	6900 2900 7500 2900
@@ -545,11 +537,7 @@ F 3 "~" H 7140 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7040 4500 6900 4500
-Wire Wire Line
 	7240 4500 7500 4500
-Wire Wire Line
-	6900 4500 6900 4300
 Connection ~ 6900 4300
 Wire Wire Line
 	6900 4300 7500 4300
@@ -569,13 +557,6 @@ $EndComp
 Wire Wire Line
 	7240 5200 7500 5200
 Wire Wire Line
-	6900 5200 6900 5000
-Wire Wire Line
-	7040 5200 6900 5200
-Connection ~ 6900 5000
-Wire Wire Line
-	6900 5000 7500 5000
-Wire Wire Line
 	6790 5100 7040 5100
 Text GLabel 6790 5800 0    50   Input ~ 0
 NWSWE_fromIOE
@@ -593,8 +574,6 @@ Text Notes 6660 5210 2    39   ~ 0
 [High Active]
 Text Notes 6660 6020 2    39   ~ 0
 [High Active]
-Wire Wire Line
-	5410 5000 6900 5000
 Wire Wire Line
 	5400 4300 6900 4300
 Wire Wire Line
@@ -1603,4 +1582,10 @@ Wire Wire Line
 	8700 5700 9610 5700
 Wire Wire Line
 	5400 5700 7500 5700
+NoConn ~ 7040 3100
+NoConn ~ 7040 4500
+Wire Wire Line
+	5410 5000 7500 5000
+NoConn ~ 7040 5200
+NoConn ~ 7040 1000
 $EndSCHEMATC
